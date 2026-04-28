@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-DB_URI = "postgresql://postgres:Elijah%40123@localhost:5432/retail_db"
+DB_URI = "postgresql://postgres:<db_password>@localhost:5432/retail_db"
 
 def load_data(df):
 

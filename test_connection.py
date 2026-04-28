@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 
-DB_URI = "postgresql://postgres:Elijah%40123@localhost:5432/retail_db"
+DB_URI = "postgresql://postgres:<DB_password>@localhost:5432/retail_db"
 
 try:
 	engine = create_engine(DB_URI)
